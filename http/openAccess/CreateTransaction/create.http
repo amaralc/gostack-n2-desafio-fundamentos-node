@@ -1,0 +1,9 @@
+POST {{baseUrl}}/transactions HTTP/1.1
+Content-Type: application/json
+
+
+{
+  "title":"Bycicle",
+  "type":"outcome",
+  "value": 1500
+}
